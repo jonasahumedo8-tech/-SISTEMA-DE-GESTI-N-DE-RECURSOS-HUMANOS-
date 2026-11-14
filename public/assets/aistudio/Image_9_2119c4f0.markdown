@@ -1,0 +1,228 @@
+---
+name: Executive Precision
+colors:
+  surface: '#f8f9ff'
+  surface-dim: '#cbdbf5'
+  surface-bright: '#f8f9ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#eff4ff'
+  surface-container: '#e5eeff'
+  surface-container-high: '#dce9ff'
+  surface-container-highest: '#d3e4fe'
+  on-surface: '#0b1c30'
+  on-surface-variant: '#434655'
+  inverse-surface: '#213145'
+  inverse-on-surface: '#eaf1ff'
+  outline: '#737686'
+  outline-variant: '#c3c6d7'
+  surface-tint: '#0053db'
+  primary: '#004ac6'
+  on-primary: '#ffffff'
+  primary-container: '#2563eb'
+  on-primary-container: '#eeefff'
+  inverse-primary: '#b4c5ff'
+  secondary: '#4f5c8e'
+  on-secondary: '#ffffff'
+  secondary-container: '#b7c4fd'
+  on-secondary-container: '#435081'
+  tertiary: '#005a89'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#0073ae'
+  on-tertiary-container: '#e7f2ff'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#dbe1ff'
+  primary-fixed-dim: '#b4c5ff'
+  on-primary-fixed: '#00174b'
+  on-primary-fixed-variant: '#003ea8'
+  secondary-fixed: '#dce1ff'
+  secondary-fixed-dim: '#b7c4fd'
+  on-secondary-fixed: '#071747'
+  on-secondary-fixed-variant: '#374475'
+  tertiary-fixed: '#cce5ff'
+  tertiary-fixed-dim: '#93ccff'
+  on-tertiary-fixed: '#001d31'
+  on-tertiary-fixed-variant: '#004b73'
+  background: '#f8f9ff'
+  on-background: '#0b1c30'
+  surface-variant: '#d3e4fe'
+typography:
+  display:
+    fontFamily: Inter
+    fontSize: 36px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: -0.025em
+  headline-lg:
+    fontFamily: Inter
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 36px
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Inter
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.015em
+  headline-md:
+    fontFamily: Inter
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.015em
+  headline-sm:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: -0.01em
+  title-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: -0.005em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 18px
+  label-md:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: 0.01em
+  label-sm:
+    fontFamily: Inter
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+  caption:
+    fontFamily: Inter
+    fontSize: 11px
+    fontWeight: '400'
+    lineHeight: 14px
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-sm: 1rem
+  margin: 2rem
+  margin-sm: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 0.75rem
+  space-lg: 1.25rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+The design system embodies the calculated elegance, reliability, and technical precision expected from modern enterprise tools. Inspired by the meticulous polish of Linear and the effortless clarity of Stripe, it serves HR directors, people ops leads, and C-suite administrators who navigate high-density personnel records, payroll architectures, and organizational hierarchies.
+
+The visual style is **Corporate Minimalist with Modern SaaS Polish**. It relies on crisp spatial rhythm, micro-borders, quiet surface elevation, and sharp typographic hierarchy rather than ornamental graphics. The interface avoids clutter, treating administrative data with reverence and clarity. The emotional tone evokes absolute operational control, frictionless productivity, institutional trust, and human-centric clarity.
+
+## Colors
+The palette balances commanding deep executive navy with high-visibility interaction blue, layered over clean, cool slate tones.
+
+- **Primary Brand & Interaction**: `#2563EB` commands active engagement, primary affordances, and selected navigation anchors. Its hover counterpart `#1D4ED8` ensures decisive feedback states.
+- **Brand Header & Structural Anchors**: `#172554` provides deep contrast for persistent top navigation chrome, high-level headers, and high-impact structural panels.
+- **Canvas & Surfaces**: The application backdrop is anchored in `#F8FAFC`, allowing primary content cards, data tables, and modal dialogs to pop forward in pure `#FFFFFF`.
+- **Text Hierarchy**: Dominant reading text utilizes deep ink `#0F172A`, paired with structural secondary copy in `#64748B` for meta-attributes, table column headers, and helper text.
+- **Borders & System Dividers**: `#E2E8F0` defines crisp grid lanes, card perimeters, and modular card divisions.
+- **Functional Semantics**:
+  - Success / Active: `#16A34A` against `#DCFCE7` soft container.
+  - Warning / Tardiness: `#F59E0B` against `#FEF3C7` soft container.
+  - Critical / Absent / Danger: `#DC2626` against `#FEE2E2` soft container.
+  - Info / Leave Management: `#0284C7` against `#E0F2FE` soft container.
+
+## Typography
+Built entirely upon `Inter`, the typographic system relies on balanced kerning and proportional figures. 
+
+For dense enterprise operations:
+- Apply tabular lining figures (`font-variant-numeric: tabular-nums`) across all analytical tables, financial compensations, employee headcounts, and metric tracking widgets.
+- Headings feature subtle negative letter-spacing for an authoritative editorial presence.
+- `label-sm` utilizes an uppercase transformation with tracked-out spacing (`0.04em`) exclusively for table headers, metadata caps, and compact status categorizations.
+
+## Layout & Spacing
+The layout follows a fluid-grid structure constrained by enterprise dashboard viewports. The typical canvas layout employs a permanent left-hand collapsed/expandable rail navigation (64px to 240px) and a fixed-height global context header (56px), leaving the primary canvas to adapt fluidly with a maximum content bound of `1600px`.
+
+- **Desktop (1280px+)**: 12-column grid using `gutter` (1.5rem / 24px) and canvas outer `margin` (2rem / 32px). Data tables occupy 12 columns; metric cards split across 3 or 4 columns.
+- **Tablet (768px - 1279px)**: 8-column layout with `gutter-sm` (1rem / 16px) and `margin-sm` (1rem / 16px). Complex multi-column tables become horizontally scrollable pinned-column containers.
+- **Mobile (<768px)**: 4-column layout; side navigation collapses into an off-canvas drawer. Metric cards stack vertically.
+- **Component Padding & Flow**: Tight density guidelines apply. Interactive forms maintain `space-sm` between input and label; data rows utilize compact vertical padding (`space-sm` to `space-md`) to ensure high visibility of data above the fold.
+
+## Elevation & Depth
+Depth in this design system is structural and restraint-led. Rather than high-blur dropshadows, hierarchy relies primarily on subtle surface layering combined with low-contrast borders.
+
+- **Flat/Base Level (Layer 0)**: Page canvas set to `#F8FAFC`.
+- **Card/Container Level (Layer 1)**: White background `#FFFFFF` bounded by a 1px border (`#E2E8F0`). A light, razor-sharp shadow is introduced:
+  - `shadow-sm`: `0 1px 2px 0 rgba(15, 23, 42, 0.05)`
+- **Hover/Interactive Floating (Layer 2)**: Actionable table rows, active card states, and split popovers lift slightly:
+  - `shadow-md`: `0 4px 6px -1px rgba(15, 23, 42, 0.07), 0 2px 4px -2px rgba(15, 23, 42, 0.05)`
+- **Overlay Level (Layer 3 - Modals, Command Palettes, Dropdown Menus)**: Deep context lift with high diffusion:
+  - `shadow-lg`: `0 10px 15px -3px rgba(15, 23, 42, 0.08), 0 4px 6px -4px rgba(15, 23, 42, 0.04)` with a 1px border (`#E2E8F0`).
+- **Dark Navigation Chrome**: Top bars or persistent dark sidebars in `#172554` live on their own tonal plane, isolated with a 1px subtle dark-border separator (`rgba(255, 255, 255, 0.1)`).
+
+## Shapes
+The shape language uses refined corners that soften administrative interfaces while retaining precise technical framing.
+
+- **Base Elements (`0.5rem` / 8px)**: Applied to text input fields, buttons, dropdown triggers, and interactive list items.
+- **Cards & Data Tables (`rounded-lg` - `1rem` / 16px)**: Encloses table canvases, card groups, analytics widgets, and overview panels.
+- **Modals & Slide-outs (`rounded-xl` - `1.5rem` / 24px)**: Applied to large modal containers and profile sheet heads.
+- **Status Pills & Avatars**: Fixed full-radius pills (`rounded-full`) are reserved specifically for system badges, status tags, and user avatars.
+
+## Components
+
+### Buttons
+- **Primary**: Solid `#2563EB` background, `#FFFFFF` text, `rounded-md` (8px). Hover: `#1D4ED8`. Active: `#1E40AF`. Focus: 2px offset ring with `#2563EB`.
+- **Secondary / Outline**: `#FFFFFF` background, 1px `#E2E8F0` border, `#0F172A` text. Hover: `#F8FAFC` background with `#CBD5E1` border.
+- **Ghost**: Transparent background, `#64748B` text. Hover: `#EFF6FF` background, `#2563EB` text.
+- **Destructive**: `#DC2626` background, `#FFFFFF` text. Hover: `#B91C1C`.
+- **Sizes**: Small (32px height, 13px text), Medium (38px height, 14px text), Large (44px height, 16px text).
+
+### Chips & Status Badges
+Pill-shaped containers (`rounded-full`) with 11px semi-bold (`label-sm`) uppercase text and micro dot indicators:
+- **Active / Present**: `#DCFCE7` background, `#16A34A` text, 6px solid green dot indicator.
+- **Late / Warning**: `#FEF3C7` background, `#D97706` text, 6px solid amber dot indicator.
+- **Absent / Critical**: `#FEE2E2` background, `#DC2626` text, 6px solid red dot indicator.
+- **On Leave / Info**: `#E0F2FE` background, `#0284C7` text, 6px solid light-blue dot indicator.
+- **Neutral / Draft**: `#F1F5F9` background, `#475569` text.
+
+### Form Inputs
+- Standard height: 38px. Background: `#FFFFFF`. Border: 1px `#E2E8F0`. Corner: 8px. Text: `#0F172A` (14px).
+- Placeholder text: `#94A3B8`.
+- Focus state: Border color changes to `#2563EB` with a `0 0 0 3px rgba(37, 99, 235, 0.15)` focus ring.
+- Error state: Border `#DC2626`, focus ring `rgba(220, 38, 38, 0.15)`.
+
+### Checkboxes & Radio Buttons
+- 16x16px frame with a 1px `#CBD5E1` border. 
+- Checked state: `#2563EB` fill with a crisp white checkmark or center dot. Focus ring matching standard form inputs.
+
+### Data Tables & Lists
+- Table header row: 36px height, background `#F8FAFC`, bottom border 1px `#E2E8F0`. Typography: `label-sm` in `#64748B`.
+- Table data rows: 48px standard row height, 1px `#F1F5F9` divider. Hover: `#F8FAFC`.
+- Selected row: `#EFF6FF` background with `#2563EB` left-edge indicator (2px).
+
+### Cards & Metric Panels
+- Base style: `#FFFFFF` fill, 1px `#E2E8F0` border, `rounded-lg` (16px), padding `1.25rem` (`space-lg`), and `shadow-sm`.
+- KPI Stat Cards: Compact layout featuring a tiny category badge or icon at top right, followed by a large numeric metric (`headline-lg` with tabular numbers), concluding with a micro trend indicator (+3.4% vs last month).

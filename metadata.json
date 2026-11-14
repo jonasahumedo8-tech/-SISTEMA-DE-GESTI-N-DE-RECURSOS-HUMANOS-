@@ -1,0 +1,6 @@
+{
+  "name": "HumanPro",
+  "description": "Gestión inteligente del talento humano. Sistema integral empresarial de administración de Recursos Humanos con PostgreSQL y Neon.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
